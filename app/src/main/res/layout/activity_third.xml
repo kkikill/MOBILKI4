@@ -1,30 +1,26 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp">
+    android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/editTextDay"
+    <EditText android:id="@+id/dayInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="День" />
+        android:hint="Введите день"/>
 
-    <EditText
-        android:id="@+id/editTextTime"
+    <EditText android:id="@+id/timeInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Время" />
+        android:hint="Введите время"/>
 
-    <EditText
-        android:id="@+id/editTextComments"
+    <EditText android:id="@+id/commentInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Комментарии" />
+        android:hint="Комментарий"/>
 
     <Button
-        android:id="@+id/buttonOk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="OK" />
+        android:text="ОК"
+        android:onClick="returnToSecondActivity"/>
 </LinearLayout>

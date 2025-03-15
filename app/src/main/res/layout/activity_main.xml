@@ -1,24 +1,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp">
-
-    <EditText
-        android:id="@+id/editTextName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Имя" />
-
-    <EditText
-        android:id="@+id/editTextSurname"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Фамилия" />
+    android:orientation="vertical">
 
     <Button
-        android:id="@+id/buttonNext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next" />
+        android:text="Перейти ко второму экрану"
+        android:onClick="openSecondActivity"/>
 </LinearLayout>
